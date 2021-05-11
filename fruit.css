@@ -1,0 +1,111 @@
+body{
+    width:100%;
+    background-color: #a3f38a;
+  }
+  .midsection{
+    border: 1px solid black;
+    padding: 2px;
+    width: 50%;
+    background-color: #a3f38a;
+  }
+  body{
+    text-align: center;
+  }
+  body .midsection{
+    text-align: left;
+  }
+  .container{
+    margin: 2px;
+    
+  
+  }
+  body a{
+    color: #a3f38a;
+  }
+  
+  
+  .form-select {
+    display: block;
+    width: 30%;
+    margin:2px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  .input-group{
+    margin:2px;
+    width: 100%;
+   }
+  .input-group .form-control, .input-group .form-select {
+    position: relative;
+    flex: 1 1 auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    min-width: 0;
+  }
+  
+  .card-header{
+    background-color:#a3f38a;
+    color:#fff;
+  }
+  .card-header ul li{
+    background-color:#a3f38a;
+  }
+  .card-header a{
+    color:#fff
+  }
+  .footer-body{
+    background-color:#a3f38a;
+    color:#fff;
+    }
+  .footer-body .card-title{
+    font-size: 2.00rem;
+      text-decoration: none;
+  }
+  
+  nav{
+    background-color: #a3f38a;
+  }
+  nav a{
+    color: #fff
+    }
+  .navbar-brand {
+    font-size: 2.00rem;
+    text-decoration: double;
+  }
+  nav li{
+  
+    background-color: #a3f38a
+  }
+  nav li a{
+    color: #fff
+  }
+form{
+    margin-right: 500px;
+}
+.carousel-item {
+    height:500px;
+    }
+.navbar-brand{
+     color:rgb(45, 182, 105);
+}
+h5{
+    color:rgb(45, 182, 105);
+}
+button{
+    width:150px;
+    height:50px;
+    padding:2px;
+    background-color:rgb(247, 248, 167);
+    border:1px solid #fff;
+    color:rgb(45, 182, 105);
+}
+.dropdown-menu{
+    background-color: #a3f38a;
+}
+.tab-content{
+    width:5000px;
+}
+.row {
+    width:1000px;
+}
