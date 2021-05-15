@@ -95,7 +95,6 @@
                     <form>
 
 <div class="d-flex align-items-start">
-  
     <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
         <button class="nav-link active" id="v-pills-products-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><b>Vegetables</b></button>
         <button class="nav-link" id="v-pills-fruits-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><b>Fruits</b></button>
@@ -105,28 +104,76 @@
     </div>
     <div class="tab-content" id="v-pills-tabContent">
         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            
-          <!--start of vegetable section-->
-          <div class="row gy-5">
-            {% for item in session['items'] %}
-            {% if 'vegetable' in item[7] %}
-            <form method="post" action="/addCart">
+            <div class="row gy-5">
+
               <div class="col-4 shadow">
-                <h2 style="text-align:center">{{item[7]}}</h2>
-                  <img src="/static/image/{{item[6]}}.jpg" alt="Denim Jeans" style="width:50%">
-                  <h1>{{item[1]}}</h1>
-                  <p class="price">{{item[4]}}</p>
+                <h2 style="text-align:center">Product Card</h2>
+                  <img src="/static/image/Broccoli11.jpg" alt="Denim Jeans" style="width:50%">
+                  <h1>Tailored Jeans</h1>
+                  <p class="price">$19.99</p>
                   <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
                   <p><button>Add to Cart</button></p>
+                  
                   <button type="button3" class="inc"><span class="offscreen">-</span></button>
                 <input class="incrementbar" id="pc_qty_f9d8f11b-0c0f-48c8-9797-32b3e1963189" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
                 <button type="button3" class="dec"><span class="offscreen">+</span></button>
                 </div>
-              </form>
-              {% endif %}
-                {% endfor %}
-              </div>
-              <!--end of vegetable section-->
+              <div class="col-4 shadow "  >
+                <h2 style="text-align:center">Product Card</h2>
+                  <img src="/static/image/Lettuce11.jpg" alt="Denim Jeans" style="width:50%">
+                  <h1>Tailored Jeans</h1>
+                  <p class="price">$19.99</p>
+                  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                  <p><button>Add to Cart</button></p>
+                  <button type="button3" class="inc"><span class="offscreen">-</span></button>
+                  <input class="incrementbar" id="pc_qty_f9d8f11b-0c0f-48c8-9797-2" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
+                  <button type="button3" class="dec"><span class="offscreen">+</span></button>
+                </div>
+              <div class="col-4 shadow">
+                <h2 style="text-align:center">Product Card</h2>
+                  <img src="/static/image/v211.jpg" alt="Denim Jeans" style="width:50%">
+                  <h1>Tailored Jeans</h1>
+                  <p class="price">$19.99</p>
+                  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                  <p><button>Add to Cart</button></p>
+                  <button type="button3" class="inc"><span class="offscreen">-</span></button>
+                  <input class="incrementbar" id="incrementbar1" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
+                  <button type="button3" class="dec"><span class="offscreen">+</span></button>
+                </div>
+                <div class="col-4 shadow">
+                  <h2 style="text-align:center">Product Card</h2>
+                    <img src="/static/image/Eggplant.jpg" alt="Denim Jeans" style="width:50%">
+                    <h1>Tailored Jeans</h1>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                    <p><button>Add to Cart</button></p>
+                    <button type="button3" class="inc"><span class="offscreen">-</span></button>
+                    <input class="incrementbar" id="incrementbar18" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
+                    <button type="button3" class="dec"><span class="offscreen">+</span></button>
+                  </div>
+                  <div class="col-4 shadow">
+                    <h2 style="text-align:center">Product Card</h2>
+                      <img src="/static/image/mushrooms11.jpg" alt="Denim Jeans" style="width:50%">
+                      <h1>Tailored Jeans</h1>
+                      <p class="price">$19.99</p>
+                      <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                      <p><button>Add to Cart</button></p>
+                      <button type="button3" class="inc"><span class="offscreen">-</span></button>
+                      <input class="incrementbar" id="incrementbar12" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
+                      <button type="button3" class="dec"><span class="offscreen">+</span></button>
+                    </div>
+                    <div class="col-4 shadow">
+                      <h2 style="text-align:center">Product Card</h2>
+                        <img src="/static/image/Beans11.jpg" alt="Denim Jeans" style="width:50%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                        <p><button>Add to Cart</button></p>
+                        <button type="button3" class="inc"><span class="offscreen">-</span></button>
+                        <input class="incrementbar" id="incrementbar19" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
+                        <button type="button3" class="dec"><span class="offscreen">+</span></button>
+                      </div>
+              </div> 
         </div>
         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
             <div class="row gy-5">
@@ -141,6 +188,7 @@
                   <input class="incrementbar" id="incrementbar192" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
                   <button type="button3" class="dec"><span class="offscreen">+</span></button>
                 </div>
+
                 <div class="col-4">
                   <h2 style="text-align:center">Product Card</h2>
                     <img src="/static/image/orang11.jpg" alt="Denim Jeans" style="width:50%">
@@ -195,8 +243,8 @@
                             <button type="button3" class="inc"><span class="offscreen">-</span></button>
                             <input class="incrementbar" id="incrementbar11" type="number" fd-product-quantity="" name="pc_qty_quantity" maxlength="4" value="3">
                             <button type="button3" class="dec"><span class="offscreen">+</span></button>
-                          </div>
-              </div>
+                          </div>                 
+              </div> 
         </div>
         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
           <div class="row gy-5">
